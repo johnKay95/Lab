@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int main()
@@ -6,10 +7,10 @@ int main()
 	return 0;
 }
 
-void square(int n)
+void power(int base, int exponent)
 {
 	int square;
-	square = n * n;
+	square = pow(base, exponent);
 
 	cout << square;
 }
